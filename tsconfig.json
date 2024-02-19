@@ -1,17 +1,16 @@
 {
   "compilerOptions": {
     "target": "es2016",
+    "lib": ["es2015"],
     "module": "commonjs",
     "moduleResolution": "node",
     "declaration": true,
     "outDir": "./dist",
-    "rootDir": "./",
     "esModuleInterop": true,
     "strict": true
   },
-  "include": [
-    "dist",
-    "**/*.ts",
-    "**/*.d.ts"
+  "exclude": [
+    "node_modules",
+    "dist"
   ]
 }
