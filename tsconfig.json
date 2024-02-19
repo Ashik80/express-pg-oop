@@ -2,10 +2,16 @@
   "compilerOptions": {
     "target": "es2016",
     "module": "commonjs",
-    "moduleResolution": "node10",
+    "moduleResolution": "node",
     "declaration": true,
     "outDir": "./dist",
+    "rootDir": "./",
     "esModuleInterop": true,
     "strict": true
-  }
+  },
+  "include": [
+    "dist",
+    "**/*.ts",
+    "**/*.d.ts"
+  ]
 }
