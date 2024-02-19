@@ -1,9 +1,11 @@
 {
   "name": "@try-catch-80/express-pg-oop",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "An minimal Express.js and Postgres based framework",
   "main": "dist/bootstrap.js",
-  "types": ["dist/*.d.ts"],
+  "types": [
+    "dist/*.d.ts"
+  ],
   "keywords": [],
   "author": "Ashikur Rahman",
   "repository": "Ashik80/express-pg-oop",
