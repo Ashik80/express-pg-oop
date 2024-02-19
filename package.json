@@ -1,6 +1,6 @@
 {
   "name": "@try-catch-80/express-pg-oop",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "An minimal Express.js and Postgres based framework",
   "main": "dist/bootstrap.js",
   "types": "dist/*.d.ts",
