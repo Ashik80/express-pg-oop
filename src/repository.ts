@@ -81,7 +81,8 @@ export class Repository<T> {
 
   private getTableName() {
     const repositoryName = this.constructor.name;
-    const tablename = repositoryName.replace(/([a-z])([A-Z])/g, '$1_$2').toLowerCase().split("_")[0];
+    const splittedName = repositoryName.replace(/([a-z])([A-Z])/g, '$1_$2').toLowerCase().split("_");
+    const tablename = splittedName.slice(0, -1).join("_");
     return tablename;
   }
 
